@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="" content="" />
+    <meta name="" content="" />
+    <title>Azizbek</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="icon" href="./images/SVG/apple-line.svg">
+  </head>
+  <body class="h-full bg-gray-400 flex items-center justify-center">
+    <div class="box bg-white rounded-xl p-5 shadow-md text-center">
+      <h1 class="font-medium text-4xl text-[#0000ff]">Find the <span class="text-green-600">sum</span> of
+        <span class="text-green-600" id="plus-one">1</span> and
+        <span class=" text-green-600 pr-2" id="plus-two">1</span>?
+      </h1>
+      <div class="content-con mt-6 flex flex-col gap-5">
+        <div class="content-row w-full flex gap-5 justify-between">
+          <div class="ans con-box w-[260px] cursor-pointer text-center   down  py-3 box-border bg-black rounded-lg">
+            <h1 class="font-medium  text-[35px] text-[#fff] " id="ansver-1">1</h1>
+          </div>
+          <div class="ans con-box w-[260px] cursor-pointer text-center  down   py-3 box-border bg-black rounded-lg">
+            <h1 class="font-medium text-[35px] text-[#fff] " id="ansver-2">1</h1>
+          </div>
+        </div>
+        <div class="content-row w-full flex gap-5 justify-between">
+          <div class="ans con-box w-[260px] cursor-pointer text-center  down   py-3 box-border bg-black rounded-lg">
+            <h1 class="font-medium text-[35px] text-[#fff] " id="ansver-3">1</h1>
+          </div>
+          <div onclick="ans()" class="ans con-box w-[260px] cursor-pointer text-center  down   py-3 box-border bg-black rounded-lg">
+            <h1 class="font-medium text-[35px] text-[#fff] " id="ansver-4">1</h1>
+          </div>
+        </div>
+        <div class="next con-box cursor-pointer w-[260px] text-center py-3 box-border bg-violet-400 rounded-lg font-medium text-[35px] flex justify-center items-center ml-auto mr-auto" >next --></div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
